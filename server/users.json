@@ -1,0 +1,24 @@
+[
+  {
+    "username": "sara",
+    "rooms": [
+      {
+        "name": "develop"
+      },
+      {
+        "name": "children"
+      }
+    ]
+  },
+  {
+    "username": "afrouz",
+    "rooms": [
+      {
+        "name": "seo"
+      },
+      {
+        "name": "children"
+      }
+    ]
+  }
+]

@@ -2,19 +2,19 @@ import socket from "./socketService.js";
 import './rxjs-sample.js';
 
 socket.on('stock', (data) => {
-    console.log(data.stock);
+   // console.log(data);
 })
-
-const form = document.querySelector("#form");
-const input = document.getElementById('input');
-
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    if (input.value) {
-        socket.emit('chat message', input.value);
-        input.value = '';
-    }
-});
+//
+// const form = document.getElementById("form");
+// const input = document.getElementById('input');
+//
+// form.addEventListener('submit', function(e) {
+//     e.preventDefault();
+//     if (input.value) {
+//         socket.emit('chat message', input.value);
+//         input.value = '';
+//     }
+// });
 
 // socket.addEventListener('open', function (event) {
 //     socket.send('Hello Server!');

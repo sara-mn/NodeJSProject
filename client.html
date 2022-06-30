@@ -8,6 +8,25 @@
             padding-bottom: 3rem;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
+        .chat-container {
+            height: 500px;
+        }
+        .chat-header {
+            height: 69px;
+        }
+        .chat-history {
+            height: 100%;
+        }
+        .input-box {
+            height: 34px;
+        }
+        .message-container {
+            overflow: scroll;
+            height: 100%;
+        }
+        .message-container .author-name {
+            font-weight: bold;
+        }
 
         #form {
             background: rgba(0, 0, 0, 0.15);
@@ -58,14 +77,56 @@
             background: #efefef;
         }
     </style>
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script></head>
 <body>
-<ul id="messages"></ul>
-<form id="form" action="">
-    <input id="input" autocomplete="off"/>
-    <button>Send</button>
-</form>
-<div>
+<div class="container chat-container">
+    <div class="row chat-header">
+        <div class="col-xs-12 text-center">
+            <h1>Observable Chat</h1>
+        </div>
+    </div>
+    <div class="row chat-history">
+        <div class="col-xs-3" id="room-list"></div>
+        <div class="col-xs-9 message-container"></div>
+    </div>
+    <div class="row input-box">
+        <div class="col-xs-9 col-xs-offset-3">
+            <div class="input-group">
+                <input id="msg-box" type="text" class="form-control" name="chat-input">
+                <span class="input-group-btn">
+              <button id="send-button" class="btn btn-success">Send</button>
+            </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" tabindex="-1" role="dialog" id="login-modal">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="input-group" id="login-form">
+                    <input placeholder="Username" id="login-input" class="form-control" type="text">
+                    <span class="input-group-btn">
+                <button id="login-button" class="btn btn-success">Login</button>
+              </span>
+                </div>
+                <div id="login-spinner" style="display: none">
+                    <img src="/images/spinner.gif" alt="loading spinner"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<ul id="messages"></ul>-->
+<!--<form id="form" action="">-->
+<!--    <input id="input" autocomplete="off"/>-->
+<!--    <button>Send</button>-->
+<!--</form>-->
+<div id="chart" style="display: none;">
     <div class="row" style="background-color: #e1ff6e; padding: 20px; color: black;">
         <div class="col-xs-6 col-xs-offset-3">
             <div class="text-center">
@@ -91,6 +152,11 @@
         </div>
     </div>
 </div>
-    <script src="main.js"></script>
+<script src="main.js"></script>
+<script src="chatlib.js"></script>
+<script src="reader.js"></script>
+<script>
+
+</script>
 </body>
 </html>

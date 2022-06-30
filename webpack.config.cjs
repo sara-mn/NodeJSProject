@@ -2,10 +2,15 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './client.js',
+    entry: {
+        reader: './reader.js',
+        chatlib: './chatlib.js',
+        main:'./client.js',
+    },
+    // entry: './client.js',
     output: {
-        path: path.join(__dirname, '/dist'),
-        filename: 'main.js'
+        filename: '[name].js',
+        path:  __dirname + '/dist',
     },
     devServer: {
         port: 8001
@@ -22,9 +27,14 @@ module.exports = {
     resolve: {
         extensions: ['.js']
     },
-    plugins:[
+    plugins: [
         new HtmlWebpackPlugin({
+            filename: "index.html",
             template: './client.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: "chart.html",
+            template: './chart.html'
         })
     ]
 }

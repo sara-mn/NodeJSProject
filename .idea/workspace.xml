@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d004eb-bab6-414a-b20c-e52bfff142fa" name="Default Changelist" comment="" />
+    <list default="true" id="50d004eb-bab6-414a-b20c-e52bfff142fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatlib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/userApi.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxjs-sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/rxjs-sample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socketService.js" beforeDir="false" afterPath="$PROJECT_DIR$/socketService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.cjs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +37,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2AvYfTDzSYQlrWW1f5L3dymxmmt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,11 +52,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ReactJs Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Node.JS Project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Node.JS Project\server" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -52,10 +89,24 @@
       <option name="presentableId" value="Default" />
       <updated>1655891628607</updated>
       <workItem from="1655891629903" duration="45795000" />
+      <workItem from="1656320445888" duration="16585000" />
+      <workItem from="1656408645852" duration="28638000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

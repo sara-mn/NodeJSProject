@@ -1,5 +1,5 @@
 import {Chart} from 'chart.js';
-import {merge, fromEvent, of, combineLatest, interval, Observable} from 'rxjs';
+import {merge, fromEvent, of, combineLatest, interval, Observable,Subject} from 'rxjs';
 import {scan, map} from 'rxjs/operators';
 //import {webSocket} from 'rxjs/webSocket';
 import socket from "./socketService.js";
@@ -54,6 +54,12 @@ let mySocketObservable$ = new Observable((observer) => {
     });
     return () => socket.disconnect();
 })
+
+// let mySocketSubject$ = new Subject();
+//
+// socket.on('stock', (data) => {
+//     mySocketSubject$.next(data);
+// });
 
 let defaultStream$ = mySocketObservable$
     .pipe(
